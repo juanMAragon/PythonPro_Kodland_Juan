@@ -11,12 +11,21 @@ body {
 }
 
 h1 {
-    color: #a800a5;
-    /* Il colore dell'intestazione */
-    font-size: 24px;
-    /* La dimensione del font dell'intestazione */
-    font-family: Georgia, serif;
-    /* La famiglia del font usata nell'intestazione */
+  animation: esempio 3s infinite;
+
+}
+/* @keyframes cambia-colore {
+  0% {
+    color: red;
+  }
+  100% {
+    color: blue;
+  }
+} */
+@keyframes esempio {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: green; }
 }
 
 h2 {
